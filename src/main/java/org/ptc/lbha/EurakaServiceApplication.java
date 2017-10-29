@@ -12,6 +12,6 @@ public class EurakaServiceApplication {
 	    public static void main(String[] args) {
 	        SpringApplication.run(EurakaServiceApplication.class, args);
 	    }
-	
 
 }
+// toor2lbha
