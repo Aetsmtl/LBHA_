@@ -85,6 +85,9 @@
                             <goal>build</goal>
                             <goal>push</goal>
                         </goals>
+                        <configuration>
+                            <imageName>${docker.image.prefix}/${project.artifactId}:${project.version}</imageName>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
